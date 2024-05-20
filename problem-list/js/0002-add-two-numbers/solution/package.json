@@ -1,0 +1,11 @@
+{
+  "name": "solution",
+  "version": "1.0.0",
+  "main": "exe.js",
+  "scripts": {
+    "dev": "node --watch exe.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
