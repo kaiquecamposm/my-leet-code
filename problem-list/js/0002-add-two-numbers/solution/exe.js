@@ -16,44 +16,42 @@ var addTwoNumbers = function(l1, l2) {
   let res;
   let currentL1 = l1;
   let currentL2 = l2;
+  let restSum = 0;
 
-  while (currentL1 && currentL2) {
-    let sum = currentL1.val + currentL2.val
-    let restSum = 0;
+  while (currentL1 || currentL2) {
+    let sum = (currentL1 ? currentL1.val : 0) + (currentL2 ? currentL2.val : 0) + restSum
 
-    if (sum > 9) {
-      restSum = sum - 9
+    restSum = Math.floor(sum / 10)
+    sum = sum % 10
 
-      res = addLastNode(res, new ListNode(sum - 10))
-      continue;
-    }
+    res = addLastNode(res, new ListNode(sum))
 
-    res = addLastNode(res, new ListNode(sum + restSum))
-
-    currentL1 = currentL1.next;
-    currentL2 = currentL2.next;
+    currentL1 = currentL1 ? currentL1.next : null
+    currentL2 = currentL2 ? currentL2.next : null
   }
 
-  console.log(res)
+  if (restSum > 0) {
+    res = addLastNode(res, new ListNode(restSum))
+  }
 
   return res
 };
 
-var addLastNode = function(currentNode, newNode) {
-  if (!currentNode) {
-    currentNode = newNode 
-    return currentNode
+var addLastNode = function(head, newNode) {
+  if (!head) { 
+    return newNode
   }
 
+  let currentNode = head;
   while (currentNode.next) {
     currentNode = currentNode.next
   }
 
   currentNode.next = newNode
 
-  return currentNode
+  return head
 }
 
 const res = addTwoNumbers(l1, l2)
 
-// console.log(res)
+console.log(res)
