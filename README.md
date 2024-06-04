@@ -1,4 +1,4 @@
-# Soluções LeetCode 📚
+# Soluções LeetCode 🧠
 Este repositório contém minhas soluções para desafios da plataforma LeetCode.
 ### Linguagens 💻
 As soluções são escritas em várias linguagens, incluindo:
