@@ -1,15 +1,25 @@
-# Soluções LeetCode 🧠
-Este repositório contém minhas soluções para desafios da plataforma LeetCode.
-### Linguagens 💻
-As soluções são escritas em várias linguagens, incluindo:
+# LeetCode Solutions 🧠
+
+This repository contains my solutions to challenges from the LeetCode platform.
+
+### Languages 💻
+
+Solutions are written in various languages, including:
+
 ```
 JavaScript
 ```
-### Soluções 📁
+
+### Solutions 📁
+
 - **Javascript**:
   - [01 - Two Sum](./problem-list/js/0001-two-sum)
   - [02 - Add Two Numbers](./problem-list/js/0002-add-two-numbers)
-### Contribuições 🤝
-Contribuições são bem-vindas! Se você tiver uma solução melhor para um problema, ou quiser adicionar uma nova solução para um problema que não está presente neste repositório, sinta-se à vontade para abrir um pull request.
-### Licença 📝
-Este repositório é licenciado sob a [MIT License](./LICENSE).
+
+### Contributions 🤝
+
+Contributions are welcome! If you have a better solution to a problem, or want to add a new solution for a problem that is not present in this repository, feel free to open a pull request.
+
+### License 📝
+
+This repository is licensed under the [MIT License](./LICENSE). 
