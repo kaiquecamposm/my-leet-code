@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "exe.js",
   "scripts": {
-    "dev": "node --watch exe.js"
+    "dev": "node --watch src/exe.js"
   },
   "keywords": [],
   "author": "",
