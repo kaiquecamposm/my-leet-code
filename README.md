@@ -15,6 +15,9 @@ JavaScript
 - **Javascript**:
   - [01 - Two Sum](./problem-list/js/0001-two-sum)
   - [02 - Add Two Numbers](./problem-list/js/0002-add-two-numbers)
+  - [03 - Length Of Longest Substring](./problem-list/js/003-length-of-longest-substring/)
+  - [04 - Median Of Two Sorted Arrays](./problem-list/js/004-median-of-two-sorted-arrays/)
+  - [06 - ZigZag Conversion](./problem-list/js/006-zigzag-conversion/)
 
 ## 🤝 Contributions 
 
