@@ -18,6 +18,7 @@ JavaScript
   - [03 - Length Of Longest Substring](./problem-list/js/003-length-of-longest-substring/)
   - [04 - Median Of Two Sorted Arrays](./problem-list/js/004-median-of-two-sorted-arrays/)
   - [06 - ZigZag Conversion](./problem-list/js/006-zigzag-conversion/)
+  - [19 - Remove Nth Node From End Of List](./problem-list/js/019-remove-nth-node-from-end-of-list/)
 
 ## 🤝 Contributions 
 
